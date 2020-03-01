@@ -16,4 +16,4 @@ jobs:
       - name: Build
         run: |
           go get -d -v
-          go build -v .
+          go run -v .
